@@ -1,0 +1,45 @@
+body{
+   background-color: rgb(7, 7, 6);
+}
+
+main{
+    color: blue;
+    text-align: center;
+    font-size: 80pt;
+    background-image: url(https://mendeleyblog.files.wordpress.com/2018/01/nasafunding.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 130%;
+    width: auto auto;
+    position: sticky;
+    padding: 5pt;
+}
+h1{
+    font-family: sans-serif;
+    color: blue;
+}
+h2{
+    color: blue;
+}
+.container{
+    height: auto;
+    color: white;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10pt;
+    
+    
+}
+section{
+    display: flex;
+    background-color: transparent;
+    margin: 7%;
+    display: grid; grid-template-columns: 1fr 1fr 1fr;
+    padding: 10PT;
+}
+.inner{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
